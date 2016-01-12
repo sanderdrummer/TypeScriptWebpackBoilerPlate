@@ -1,2 +1,2 @@
-!function(r){function o(n){if(t[n])return t[n].exports;var e=t[n]={exports:{},id:n,loaded:!1};return r[n].call(e.exports,e,e.exports,o),e.loaded=!0,e.exports}var t={};return o.m=r,o.c=t,o.p="",o(0)}([function(r,exports,o){var t=o(2);document.write(t())},,function(r,exports){function o(){return"it works"}console.log("asdf"),r.exports=o}]);
+!function(r){function o(n){if(t[n])return t[n].exports;var e=t[n]={exports:{},id:n,loaded:!1};return r[n].call(e.exports,e,e.exports,o),e.loaded=!0,e.exports}var t={};return o.m=r,o.c=t,o.p="",o(0)}([function(r,exports,o){var t=o(1);document.write(t())},function(r,exports){function o(){return"it works"}console.log("asdf"),r.exports=o}]);
 //# sourceMappingURL=bundle.js.map

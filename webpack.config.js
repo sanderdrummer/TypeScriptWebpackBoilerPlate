@@ -1,10 +1,14 @@
 var webpack = require('webpack');
 
+// var path = require('path');
+// var ExtractTextPlugin = require('extract-text-webpack-plugin');
+// var pathToLessLoader = path.resolve(__dirname, 'dist/bundle(bundle.js');
+
 module.exports = {
-    entry: "./src/app.ts",
+    entry: './src/app.ts',
     output: {
         path: __dirname,
-        filename: "dist/bundle.js"
+        filename: 'dist/bundle.js'
     },
     devtool: 'source-map',
     resolve: {
@@ -12,7 +16,7 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.ts$/, loader: 'ts-loader' }
+            { test: /\.ts$/, loader: 'ts-loader' },
         ]
     },
     plugins: [
