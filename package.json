@@ -1,0 +1,20 @@
+{
+  "name": "superSimple-Webpack-TS-Boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack and Typescript",
+  "contributors": [
+    {
+      "name": "Tobias Pickel"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^1.7.5",
+    "webpack": "^1.12.11"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.7.2",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2"
+  }
+}
