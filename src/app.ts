@@ -1,3 +1,10 @@
-import test = require('./test');
+declare function require(string): string;
+require('../style/main.less');
 
-document.write(test());
+import test = require('./test');
+import modal = require('./components/modal/ctrl');
+
+
+// var navigation = new Template.Template();
+// document.write(test());
+var modals = modal;
